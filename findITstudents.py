@@ -1,4 +1,3 @@
-#! python3
 import re, pyperclip
 
 #TODO:create a range match  for 30270-38641
@@ -21,7 +20,7 @@ while I!=extratednumber.index("38641"): #run while loop till the last elements i
 
 total=len(allnumbers) #find the total number of matches
 
-print("Total students for IT exam are" +str(total)) #print the same
+print("Total students for IT exam are" +str(total)) #print the total count of find objects
 
 ITEXAMNUMBER='|'.join(allnumbers) #get all the results in one string in proper format.
 
